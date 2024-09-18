@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Functions Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>JavaScript Function Assignment</h1>
+
+      <!-- Calculate Difference -->
+      <div class="function-box">
+        <h2>Calculate Difference</h2>
+        <input type="number" id="diffNum1" placeholder="Enter first number" />
+        <input type="number" id="diffNum2" placeholder="Enter second number" />
+        <button onclick="handleCalculateDifference()">Calculate</button>
+        <p id="diffResult" class="result-box"></p>
+      </div>
+
+      <!-- Is Odd -->
+      <div class="function-box">
+        <h2>Is Odd</h2>
+        <input type="number" id="oddNum" placeholder="Enter a number" />
+        <button onclick="handleIsOdd()">Check</button>
+        <p id="oddResult" class="result-box"></p>
+      </div>
+
+      <!-- Find Min -->
+      <div class="function-box">
+        <h2>Find Minimum Number</h2>
+        <input
+          type="text"
+          id="minArray"
+          placeholder="Enter numbers separated by commas"
+        />
+        <button onclick="handleFindMin()">Find Min</button>
+        <p id="minResult" class="result-box"></p>
+      </div>
+
+      <!-- Filter Even Numbers -->
+      <div class="function-box">
+        <h2>Filter Even Numbers</h2>
+        <input
+          type="text"
+          id="evenArray"
+          placeholder="Enter numbers separated by commas"
+        />
+        <button onclick="handleFilterEvenNumbers()">Filter</button>
+        <p id="evenResult" class="result-box"></p>
+      </div>
+
+      <!-- Sort Array Descending -->
+      <div class="function-box">
+        <h2>Sort Array Descending</h2>
+        <input
+          type="text"
+          id="sortArray"
+          placeholder="Enter numbers separated by commas"
+        />
+        <button onclick="handleSortArray()">Sort</button>
+        <p id="sortResult" class="result-box"></p>
+      </div>
+
+      <!-- Lowercase First Letter -->
+      <div class="function-box">
+        <h2>Lowercase First Letter</h2>
+        <input type="text" id="lowercaseString" placeholder="Enter a string" />
+        <button onclick="handleLowercaseFirstLetter()">Lowercase</button>
+        <p id="lowercaseResult" class="result-box"></p>
+      </div>
+
+      <!-- Count Vowels -->
+      <div class="function-box">
+        <h2>Count Vowels</h2>
+        <input type="text" id="vowelString" placeholder="Enter a string" />
+        <button onclick="handleCountVowels()">Count Vowels</button>
+        <p id="vowelResult" class="result-box"></p>
+      </div>
+
+      <!-- Find Average -->
+      <div class="function-box">
+        <h2>Find Average</h2>
+        <input
+          type="text"
+          id="averageArray"
+          placeholder="Enter numbers separated by commas"
+        />
+        <button onclick="handleFindAverage()">Find Average</button>
+        <p id="averageResult" class="result-box"></p>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
